@@ -56,7 +56,7 @@ function App() {
     return (
       	<>
 		<Box id="nav">
-			<Typography component='h1' variant="h2" id="titulo" sx={{mb:4, textAlign:'center', color:'#fff'}}>
+			<Typography component='h1' variant="h2" id="titulo" sx={{mb:4, textAlign:'center'}}>
 				Buscador de clima
 			</Typography>
 			<Box id="box">
