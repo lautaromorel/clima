@@ -97,7 +97,7 @@ function App() {
 					<Grid item xs={12} sm={6} className="gridItem">
 						<Card className="card">
 							<CardContent>
-								<Typography variant="h3" component='p' id="nombreCardContent">
+								<Typography variant="h4" component='p' id="nombreCardContent">
 									{nombre}
 								</Typography>
 								<Typography variant="h4" component='p' id="clima">
