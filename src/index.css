@@ -8,7 +8,8 @@ body{
 #nav{
 	background-color: #A5A58D;
 	padding-top: 1em;
-	padding-bottom: 2em;
+	padding-bottom: 1em;
+	margin-bottom: 2em;
 }
 #box{
 	max-width: 600px;
