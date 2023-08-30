@@ -59,6 +59,8 @@ function App() {
 			<Typography component='h1' variant="h2" id="titulo" sx={{mb:4, textAlign:'center'}}>
 				Buscador de clima
 			</Typography>
+		</Box>
+		<Container>
 			<Box id="box">
 				<Container>
 					<TextField 
@@ -88,8 +90,7 @@ function App() {
 					</Stack>
 				</Container>
 			</Box>
-		</Box>
-		<Container>
+		
 			{cargando ? (
 				<div className="loader"><Loader /></div>
 			) : hayClima ? (
